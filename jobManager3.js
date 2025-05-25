@@ -28,4 +28,4 @@ function update(id, updatedDetails) {
   return job;
 }
 
-module.exports = { addJob, readJobs, jobArray };
+module.exports = { addJob, readJobs, jobArray,update };

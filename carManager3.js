@@ -29,4 +29,4 @@ function update(id, updatedDetails) {
 }
 
 
-module.exports = { addCar, readCars, carArray };
+module.exports = { addCar, readCars, carArray,update };

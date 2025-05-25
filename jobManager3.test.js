@@ -17,5 +17,5 @@ test("update() should updates a job’s details.", () => {
 });
 
 test("update() should returns false when given an invalid ID.", () => {
-    expect(update(999, { make: "Nonexistent Pet" })).toBe(false); // Invalid ID
+    expect(update(999, { title: "Nonexistent Pet" })).toBe(false); // Invalid ID
 });
